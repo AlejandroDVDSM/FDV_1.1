@@ -56,3 +56,7 @@ git lfs track "Script_LFS.cs"
 Captura de pantlla con el log "Script tarea 1.2" en la consola:
 ![8  Script Tarea 1 2](https://github.com/user-attachments/assets/cc98306f-c7b3-4ffd-a1e2-9c396850cd90)
 
+Repositorio creado en este apartado: [https://github.com/AlejandroDVDSM/FDV_1.2](https://github.com/AlejandroDVDSM/FDV_1.2)
+
+
+![FDV_1 1-Gif](https://github.com/user-attachments/assets/d2169a1a-119d-43ab-a9d6-d8042d1f0658)
