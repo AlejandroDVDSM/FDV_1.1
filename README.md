@@ -10,18 +10,18 @@ A continuación, y empleando Github Desktop, clonamos el repositorio recién cre
 
 ![2  Clonación repo](https://github.com/user-attachments/assets/f1cad929-4ffe-47de-a262-1c28b5b008a5)
 
-Una vez se ha clonado el repositorio, creamos las dos imágenes y los tres ficheros de texto solicitados y hacemos _commit _y _push_ para subirlos al repositorio.
+Una vez se ha clonado el repositorio, creamos las dos imágenes y los tres ficheros de texto solicitados y hacemos _commit _ y _push_ para subirlos al repositorio.
 
 ![3  Creación de archivos](https://github.com/user-attachments/assets/ace17053-e087-4d0c-a9f7-47bea845c698)
 
-Tras haber subido los archivos, instalamos Git LFS y realizamos un seguimiento de todos los archivos con la extensión `.jpg` medianto comandos.
+Tras haber subido los archivos, instalamos Git LFS y realizamos un seguimiento de todos los archivos con la extensión `.jpg` mediante comandos.
 
 ```
 git lfs install
 ```
 
 ```
-git lfs track ".*jpg"
+git lfs track "*.jpg"
 ```
 
 ![4  Git LFS](https://github.com/user-attachments/assets/7a9cb87a-63aa-4b72-9831-181b9e94a669)
@@ -52,6 +52,15 @@ git lfs track "Script_LFS.cs"
 ```
 
 ![7  Git LFS 1 2](https://github.com/user-attachments/assets/4f55392b-b7da-43df-a014-c5141ddb5753)
+
+Junto a estos dos archivos, también incluimos cualquier cosa bajo la carpeta `Assets/Plugins/":
+
+```
+git lfs track "Assets/Plugins/**"
+```
+
+![9  Git LFS track plugins](https://github.com/user-attachments/assets/d88c847b-cf3e-4434-b66e-eea67c381423)
+
 
 Captura de pantlla con el log "Script tarea 1.2" en la consola:
 ![8  Script Tarea 1 2](https://github.com/user-attachments/assets/cc98306f-c7b3-4ffd-a1e2-9c396850cd90)
